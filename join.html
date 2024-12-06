@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Únase a nuestro equipo Bistró Tiffin University</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="tubistro.css">
+<!--[if lt IE 9]>
+<script src=" http://html5shim.googlecode.com/svn/trunk/html5.js ">
+</script>
+<![endif]-->
+</head>
+<body>
+<div id="wrapping">
+<header><h1>Empleo del Bistró Tiffin University</h1></header>
+<nav>
+<ul>
+ <li><a href="index.html">Home</a></li>
+ <li><a href="drinks.html">Just Drinks</a></li>
+ <li><a href="food.html">Food Menu</a></li>
+ <li><a href="join.html">Join Our Team</a></li>
+</ul>
+</nav>
+<main>
+      <!-- Formulario de empleo -->
+    <form action="http://webdevbasics.net/scripts/prime.php" method="POST">
+        <fieldset>
+            <legend>Formulario de empleo</legend>
+            <h3>Enviar información para el empleo</h3>
+
+            <p>La información marcada con un asterisco (*) es obligatoria para el envío</p>
+
+            <!-- Campo Nombre -->
+            <label for="myName">*Nombre</label>
+            <input type="text" name="Name" id="myName" required><br>
+
+            <!-- Campo Correo Electrónico -->
+            <label for="myEmail">*Correo electrónico:</label>
+            <input type="email" name="Correo electrónico:" id="myEmail" required><br>
+
+            <!-- Campo Teléfono -->
+            <label for="myPhone">*Teléfono:</label>
+            <input type="tel" name="Teléfono:" id="myPhone" required><br>
+
+            <!-- Campo Puesto -->
+            <label for="myPosition">*Puesto</label>
+            <select name="Puesto" id="myPosition" size="1" required>
+                <option></option>
+                <option value="Mostrador">Mostrador</option>
+                <option value="Cajero">Cajero</option>
+                <option value="Cocinero">Cocinero</option>
+                <option value="Gestión">Gestión</option>   
+            </select><br>
+
+            <!-- Campo Experiencia Laboral -->
+            <label for="experience">Experiencia Laboral:</label>
+            <textarea id="Experiencia" name="experience" rows="4" cols="60"  placeholder="Escriba la experiencia laboral pertinente al puesto deseado"></textarea>
+
+            <!-- Botón de envío -->
+            <input type="submit" value="Enviar" id="mySubmit">
+        </fieldset>
+
+    </form>
+</main>
+<hr>
+<footer>
+Copyright &copy; 2020 Tiffin University Bistro<br>
+<a href="mailto:milton@zamnbrano.com">milton@zambrano.com</a>
+</footer>
+</div>
+</body>
+</html>

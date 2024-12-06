@@ -1,0 +1,113 @@
+body { background-image: url(gradientblue.jpg);
+       background-color: #0099cc;
+       color: #000000;
+       font-family: Verdana, Arial, sans-serif;
+       font-weight: bold;
+}
+header { background-color: #000000;
+         color: #006633;
+         background-image: url(bistro.gif);
+	 background-position: center;
+	 background-repeat: no-repeat;
+}
+h1 { text-align: center;
+     font-size: 3em;
+     padding: 10px;
+     line-height: 200%;
+     text-shadow: 4px 4px 2px #ffcc33;
+}
+h3 { background-color: #006633;
+     color: #ffcc33;
+     text-align: center;
+}
+nav { font-weight: bold;
+      font-size: .9em;
+      float: right;
+      width: 160px;
+      background-color: #006633;
+}
+nav ul { list-style-type: none;
+}
+nav a { text-decoration: none;
+}
+nav a:link { color: #ffcc33;
+}
+nav a:visited { color: #ffffff;
+}
+nav a:hover { color: #CCCCCC;
+}
+main { margin-right: 180px;
+       padding-left: 20px;
+       padding-bottom: 20px;
+}
+.group { font-weight: bold;
+         background-color: #ffcc33;
+	 color: #006633;
+	 font-size: 1em;
+	 text-shadow: 1px 1px 1px #666;
+}
+footer { font-size: 0.70em;
+         font-style: italic;
+         padding: 10px;
+         margin-right: 180px;
+}
+#wrapping { background-color: #ffffcc;
+	    color: #006633;
+            width: 80%;
+            margin-right: auto;
+	    margin-left: auto;
+	    min-width: 700px;
+	    max-width: 1024px;
+}
+img { border-style: none;
+}
+footer nav { text-align: left;
+}
+header, main, nav, footer { display: block;
+}
+table { border: 4px solid #000033; 
+      border-collapse: collapse;
+}
+.tablegroup {background-color: #996600;
+             color: #ffcc33;
+             font-size: 0.75em;
+}
+td { padding: 0.5em;
+     border: 2px solid #000033;
+     background-color: #cccccc;
+     color: #660000;
+     font-size: 0.65em;
+     text-align: center;
+}
+th { padding: 0.5em;
+     border: 2px solid #000033;
+}
+
+label {
+     float: left; /* Hace que las etiquetas floten a la izquierda del contenedor */
+     display: block; /* Cambia el comportamiento de las etiquetas a bloque, ocupando toda la línea */
+     text-align: right; /* Alinea el texto de las etiquetas a la derecha */
+     width: 8em; /* Establece un ancho fijo de 8em para las etiquetas */
+     padding-right: 0.5em; /* Añade un espacio de 0.5em a la derecha del texto de la etiqueta */
+     font-weight: bold; /* Hace que el texto de las etiquetas sea negrita */
+ }
+ 
+ input, select, textarea {
+     display: block; /* Cambia el comportamiento a bloque, ocupando toda la línea */
+     margin-bottom: 0.7em; /* Añade un margen inferior de 0.7em para separar los elementos */
+ }
+ 
+ #mySubmit {
+     margin-left: 20em; /* Añade un margen a la izquierda de 20em para separar el botón del resto del formulario */
+ }
+ 
+ fieldset {
+     width: 700px; /* Establece un ancho fijo de 700px para el fieldset */
+     border: 6px solid #ffee33; /* Añade un borde sólido de 6px de grosor y color amarillo claro (#ffee33) */
+ }
+ 
+ legend {
+     color: #009900; /* Establece el color del texto de la leyenda */
+     font-family: Georgia, 'Times New Roman', Times, serif; /* Define la familia de fuentes a utilizar para la leyenda */
+     font-weight: bold; /* Hace que el texto de la leyenda sea negrita */
+ }
